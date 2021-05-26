@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DS6504AttendanceDBV2</DataSourceReference>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>spAttStudentRateByName</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="StudentName">
+        <DataField>StudentName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="AvgLecAttRate">
+        <DataField>AvgLecAttRate</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="AvgLabAttRate">
+        <DataField>AvgLabAttRate</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="AvgClassAttRate">
+        <DataField>AvgClassAttRate</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

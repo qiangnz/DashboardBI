@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "DS6504AttendanceDashBoard", "DS6504AttendanceDashBoard\DS6504AttendanceDashBoard.rptproj", "{01986B56-35AD-4715-AB99-A76686B51029}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01986B56-35AD-4715-AB99-A76686B51029}.Debug|Default.ActiveCfg = Debug
+		{01986B56-35AD-4715-AB99-A76686B51029}.Debug|Default.Build.0 = Debug
+		{01986B56-35AD-4715-AB99-A76686B51029}.Debug|Default.Deploy.0 = Debug
+		{01986B56-35AD-4715-AB99-A76686B51029}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{01986B56-35AD-4715-AB99-A76686B51029}.DebugLocal|Default.Build.0 = DebugLocal
+		{01986B56-35AD-4715-AB99-A76686B51029}.Release|Default.ActiveCfg = Release
+		{01986B56-35AD-4715-AB99-A76686B51029}.Release|Default.Build.0 = Release
+		{01986B56-35AD-4715-AB99-A76686B51029}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEFE8FD5-D25A-4E1A-8E9B-ECDBB50CBE57}
+	EndGlobalSection
+EndGlobal
